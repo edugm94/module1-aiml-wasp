@@ -18,3 +18,10 @@ python main.py
 ```
 The graphical environment appears, giving the option to the user to place the obstacles and dirt spaces within the grid.
 Once all objects are place, the search will start after clicking on ``run`` buttom.
+
+After completing, it is shown in the terminal information about the execution. Such information can be:
+* Number of explored paths, and paths remaining in the frontier.
+* Elapsed time to find a action solution.
+* Position where vaccum cleaner sucked any dirt.
+* Agent's performance.
+* Total number of actions taken during execution.
